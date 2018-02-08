@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.pawras.mindful.activities.squares.FirstSquare">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/sq31"
+        android:text="@string/sq31"
+        android:textAllCaps="false"
+        android:onClick="openEnterTextScreen"
+        android:textColor="@android:color/white"
+        android:background="@drawable/holo_btn"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/sq32"
+        android:text="@string/sq32"
+        android:textAllCaps="false"
+        android:onClick="openEnterTextScreen"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/holo_btn"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/sq33"
+        android:text="@string/sq33"
+        android:textAllCaps="false"
+        android:onClick="openEnterTextScreen"
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/holo_btn"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+
+    />
+
+</LinearLayout>

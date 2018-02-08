@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">Mindful Eetdagboek</string>
+
+    //public license key
+    <string name="public_key">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmRUyqzyjWAK7Zu+mwe+tZfWe/0RVbkMJ8ug2HzjzqcOiLAYEaVQ2hMAdzUG4M+/KLTSUGajCucJbw5ccX0fy+6znJxmTiW3192SUc8vZSoj/qYV6KZCTslSnY7NvYhkWTwRX21CuUz7ySTLVyrh5L8oEYLELE9/LGH2P8Z5IY9ZjzgvjSKZUFccM4rYTUeczsts35NGmg84PHIiLVKvPMfXwZJOFU16GZX3E1mgpEGAHkh/7h8GkLsM4mm2GWv2dqppGfPDfKUJjagI7f37xwlSvSfSzwJMUTVz1/KZSGvUEMWnZfq3O8XwVkxZtjpslFPG/JMGfCccfDJTVYUI2NwIDAQAB</string>
+
+    //Menu page options that appear after splash screen
+    <string name="menu_1">Mindful Eetdagboek</string>
+    <string name="menu_2">Historie Dagboek</string>
+    <string name="menu_3">Lijst gevoelens &amp; typen honger</string>
+    <string name="menu_4">Zelftest</string>
+    <string name="menu_5">GEEF-programma</string>
+    <string name="menu_6">Online coaching</string>
+
+    //home page options
+    <string name="sq1">Tijdstip</string>
+    <string name="sq2">Gedachten en\n Type honger</string>
+    <string name="sq3">Hongergevoel</string>
+    <string name="sq4">Effectiviteit korte termijn </string>
+    <string name="sq5">Effectiviteit lange termijn</string>
+    <string name="sq6">Notities</string>
+
+
+    //options Home_Page --> Screen# 1
+    <!--<string name="sq1">Tijdstip</string>-->
+    <string name="sq12">Maaltijd of snack?</string>
+
+
+    //options Home_Page --> Screen# 2
+    <string name="sq21">Gedachten voor maaltijd</string>
+    <string name="sq22">Gedachten na maaltijd</string>
+    <string name="sq23">Type honger</string>
+
+
+    //options Home_Page --> Screen# 3
+    <string name="sq31">Cijfer hongergevoel voor</string>
+    <string name="sq32">Cijfer hongergevoel tijdens</string>
+    <string name="sq33">Cijfer hongergevoel na</string>
+
+
+    //options Home_Page --> Screen# 4
+    <string name="sq41">Effectiviteit korte termijn</string>
+
+    //Enter Screen options
+    <string name="home">Home</string>
+    <string name="uitleg">Uitleg</string>
+    <string name="save">Opslaan</string>
+    <string name="Vandaag">Vandaag</string>
+    <string name="history">Historie Dagboek</string>
+    <string name="better_des">Historie Dagboek</string>
+    <string name="today">Vandaag</string>
+    <string name="yesterday">Gisteren</string>
+    <string name="last_Week">Afgelopen week</string>
+    <string name="last_Month">Per onderdeel</string>
+    <string name="all">Alles</string>
+    <string name="category">Selecteer Categorie</string>
+    <string name="show_all">Toon Alles</string>
+    <string name="overview">Overzicht</string>
+    <string name="clickable_string">This is a <a ref="http://stackoverflow.com/questions/4025770/android-launch-activity-from-clickable-text"><u>clickable string</u></a></string>
+
+    //string array for translation purpose in EnterText screen against the button "UITLEG"
+    <string-array name="translation">
+        <item>Door dagelijks op ongeveer hetzelfde tijdstip te eten, raakt je lichaam in een evenwichtig ritme en is de kans kleiner dat je gaat snoepen en snaaien. In deze kolom noteer je het tijdstip dat je iets eet. Zit daar een duidelijk, stabiel patroon in of heb je sterk wisselende tijden?</item>
+        <item>Waarom noteren of op het betreffende tijdstip een maaltijd of een snack wordt gegeten? Hiermee kun je voor jezelf conclusies trekken. Bijvoorbeeld, als je kijkt naar de tijdstippen van de maaltijden kun je tot de conclusie komen dat dit (voor jou) niet de juiste tijdstippen zijn, waardoor je gaat snacken. Zit er bijvoorbeeld teveel tijd tussen de maaltijden? Ander voorbeeld, heb jij bepaalde momenten van de dag waarop je juist gaat snacken? Bijvoorbeeld aan het eind van de middag of later op de avond? En wat is daarvan de oorzaak. Onderzoek dit voor jezelf.</item>
+        <item>Noteer (in telegramstijl) je gedachten over hetgeen wat je eet, zowel ervoor als erna, en welk [type honger je ervaart]. De bedoeling is dat je je bewust wordt van je gedachten en wat [je voelt].</item>
+        <item>Noteer (in telegramstijl) je gedachten over hetgeen wat je eet, zowel ervoor als erna, en welk [type honger je ervaart]. De bedoeling is dat je je bewust wordt van je gedachten en wat [je voelt].</item>
+        <item>Noteer (in telegramstijl) je gedachten over hetgeen wat je eet, zowel ervoor als erna, en welk [type honger je ervaart]. De bedoeling is dat je je bewust wordt van je gedachten en wat [je voelt].</item>
+        <item>Hier geef je je hongergevoel van je maag een cijfer. Voordat je gaat zitten om te eten, neem je eerst een paar seconden de tijd om te voelen hoeveel honger je hebt op een schaal van 0 (helemaal geen honger) tot 10 (helemaal uitgehongerd). Noteer dit cijfer voordat je gaat eten. Nadat je de helft van je eten op hebt, neem je weer even de tijd om je honger opnieuw een cijfer te geven. Zo kun je controleren of je verzadigd bent of nog honger hebt. Aan het eind van de maaltijd geef je je maaghonger weer een cijfer.</item>
+        <item>Hier geef je je hongergevoel van je maag een cijfer. Voordat je gaat zitten om te eten, neem je eerst een paar seconden de tijd om te voelen hoeveel honger je hebt op een schaal van 0 (helemaal geen honger) tot 10 (helemaal uitgehongerd). Noteer dit cijfer voordat je gaat eten. Nadat je de helft van je eten op hebt, neem je weer even de tijd om je honger opnieuw een cijfer te geven. Zo kun je controleren of je verzadigd bent of nog honger hebt. Aan het eind van de maaltijd geef je je maaghonger weer een cijfer.</item>
+        <item>Hier geef je je hongergevoel van je maag een cijfer. Voordat je gaat zitten om te eten, neem je eerst een paar seconden de tijd om te voelen hoeveel honger je hebt op een schaal van 0 (helemaal geen honger) tot 10 (helemaal uitgehongerd). Noteer dit cijfer voordat je gaat eten. Nadat je de helft van je eten op hebt, neem je weer even de tijd om je honger opnieuw een cijfer te geven. Zo kun je controleren of je verzadigd bent of nog honger hebt. Aan het eind van de maaltijd geef je je maaghonger weer een cijfer.</item>
+        <item>De effectiviteit op korte termijn wil zeggen hoeveel opluchting eten in eerste instantie oplevert. Ook geef je een cijfer voor de effectiviteit op de lange termijn.Geef elke korte- en lange termijn effectiviteit een cijfer op een schaal van 1 tot 5, waarbij 1 staat voor volstrekt niet effectief en 5 voor heel effectief. Bijvoorbeeld, stel dat je het volgende denkt: Ik vraag me af of het leven wel de moeite waard is. Je neemt een zak chips, kijkt tv en probeert er verder zo min mogelijk bij stil te staan. Terwijl je tv kijkt, kan de korte termijn effectiviteit van het eten van chips op 4 worden getaxeerd. Maar daarna voel je je schuldig dat je die hele zak chips hebt verorberd, waardoor je de effectiviteit op de lange termijn met een 1 moet waarderen. De effectiviteit van eten een cijfer geven zal in het begin onwennig aanvoelen, maar door hierbij stil te staan ervaar je het effect ervan. </item>
+        <item>De effectiviteit op korte termijn wil zeggen hoeveel opluchting eten in eerste instantie oplevert. Ook geef je een cijfer voor de effectiviteit op de lange termijn.Geef elke korte- en lange termijn effectiviteit een cijfer op een schaal van 1 tot 5, waarbij 1 staat voor volstrekt niet effectief en 5 voor heel effectief. Bijvoorbeeld, stel dat je het volgende denkt: Ik vraag me af of het leven wel de moeite waard is. Je neemt een zak chips, kijkt tv en probeert er verder zo min mogelijk bij stil te staan. Terwijl je tv kijkt, kan de korte termijn effectiviteit van het eten van chips op 4 worden getaxeerd. Maar daarna voel je je schuldig dat je die hele zak chips hebt verorberd, waardoor je de effectiviteit op de lange termijn met een 1 moet waarderen. De effectiviteit van eten een cijfer geven zal in het begin onwennig aanvoelen, maar door hierbij stil te staan ervaar je het effect ervan. </item>
+        <item>Notities\' zijn optioneel. Je kan hier voor jezelf iets noteren wat je niet wilt vergeten. Bijvoorbeeld een inzicht of ontdekking, zoals dat je bij deze maaltijd je bord niet hebt leeg gegeten waarop je trots bent, of dat je hebt ontdekt dat je door spanning trek krijgt in zoetigheid, of dat je door bepaalde gedachten meer gaat eten, of</item>
+    </string-array>
+
+
+    //this is array which enclose all the possible categories of squares in the form of arra
+    <string-array name="list_of_squares">
+
+        <item>Tijdstip</item>
+        <item>Maaltijd of snack?</item>
+        <item>Gedachten voor maaltijd</item>
+        <item>Gedachten na maaltijd</item>
+        <item>Type honger</item>
+        <item>Cijfer hongergevoel voor</item>
+        <item>Cijfer hongergevoel tijdens</item>
+        <item>Cijfer hongergevoel na</item>
+        <item>Effectiviteit korte termijn</item>
+        <item>Effectiviteit lange termijn</item>
+        <item>Notities</item>
+    </string-array>
+
+
+    <string-array name="hours">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+    </string-array>
+
+    <string-array name="minutes">
+        <item>15</item>
+        <item>30</item>
+        <item>45</item>
+        <item>00</item>
+    </string-array>
+
+</resources>

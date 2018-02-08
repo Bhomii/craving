@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background"
+    tools:context="com.pawras.mindful.activities.MenuPage">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/today"
+        android:text="@string/today"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:background="@drawable/holo_btn"
+        android:onClick="openHistoryCategoryPage"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/yesterday"
+        android:text="@string/yesterday"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:background="@drawable/holo_btn"
+        android:onClick="openHistoryCategoryPage"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/lastweek"
+        android:text="@string/last_Week"
+        android:textAllCaps="false"
+        android:onClick="openHistoryCategoryPage"
+        android:textColor="@android:color/white"
+        android:background="@drawable/holo_btn"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/lastmonth"
+        android:text="Afgelopen Maand"
+        android:textAllCaps="false"
+        android:onClick="openHistoryCategoryPage"
+        android:textColor="@android:color/white"
+        android:background="@drawable/holo_btn"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/all"
+        android:text="@string/all"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:background="@drawable/holo_btn"
+        android:onClick="openHistoryCategoryPage"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/delete"
+        android:text="Alles Wissen"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:background="@drawable/holo_btn"
+        android:onClick="deleteDiary"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+
+</LinearLayout>
